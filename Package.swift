@@ -1,6 +1,7 @@
 // swift-tools-version: 6.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
+import Foundation
 import PackageDescription
 
 let package = Package(
@@ -26,7 +27,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftyBeaver", package: "SwiftyBeaver"),
             ],
-            plugins: [
+            plugins: ProcessInfo.processInfo.environment["CI"] == "true" ? [] : [
                 .plugin(name: "SwiftLintBuildToolPlugin", package: "SwiftLint"),
             ],
         ),

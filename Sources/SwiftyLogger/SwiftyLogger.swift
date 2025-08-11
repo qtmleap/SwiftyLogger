@@ -8,6 +8,7 @@
 
 @preconcurrency
 import Foundation
+@preconcurrency
 import SwiftyBeaver
 
 public enum SwiftyLogger: Sendable {
