@@ -10,7 +10,7 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftyLoggerr",
+            name: "SwiftyLogger",
             targets: ["SwiftyLogger"],
         ),
     ],
