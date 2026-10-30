@@ -1,4 +1,4 @@
-## SwiftyLogger
+# SwiftyLogger
 
 A wrapper library that makes SwiftyBeaver easier to use.
 
@@ -7,7 +7,7 @@ A wrapper library that makes SwiftyBeaver easier to use.
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/qtmleap/SwiftyLogger.git", .from(from: "2.1.1")),
+.package(url: "https://github.com/qtmleap/SwiftyLogger.git", from: "2.1.1"),
 ```
 
 and
@@ -21,4 +21,4 @@ and
 - [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver)
 
 ## License
-SwiftyLogger Framework is released under [the MIT License](/LICENSE).
+SwiftyLogger Framework is released under [the MIT License](LICENSE).
